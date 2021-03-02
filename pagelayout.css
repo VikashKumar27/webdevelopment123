@@ -1,0 +1,110 @@
+
+
+#header
+{
+   /* border:solid;*/
+   
+   height: 180px;
+
+    background-color:rgb(230, 176, 214);
+    /*padding:10px;*/
+    margin-bottom: 10px;
+    border-radius:10px;
+    
+}
+.headertext
+{
+  padding-left: 10px;
+}
+
+/*
+#navigation
+{
+    margin-top: 10px;
+    height:50px;
+    background-color:navajowhite;
+
+    
+    
+}*/
+/*#container
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}*/
+#container::after{content:" ";display:block;clear: both;}
+#left_panel
+{
+    background-color: wheat;
+    float:left;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius:10px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+#right_panel
+{
+   
+    background-color:rgb(212, 172, 195);
+    float:right;
+    border-radius:10px;
+    
+    
+}
+#right_panel2
+{
+   
+    background-color:powderblue;
+    float:right;
+    /*padding:5px;*/
+    margin-top: 10px;
+    border-radius: 10px;
+
+    
+}
+.heading
+{
+  text-align: center;
+}
+
+.footer
+{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:20px;
+  
+}
+.foot1
+{
+  background-color:palevioletred;
+  border-radius: 10px;
+}
+
+.foot2
+{
+  background-color:green;
+  border-radius: 10px;;
+}
+
+.foot3
+{
+  background-color:orange;
+  border-radius: 10px;;
+}
+
+.foot4
+{
+  background-color:slateblue;
+  border-radius: 10px;
+}
+@media screen and (max-width:680px)
+{
+  .footer
+  {
+    grid-template-columns: repeat(1,1fr);
+
+  }
+}
